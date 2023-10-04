@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Croissant+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="D:\Web Development\My Weather App\weather.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <h1 class="heading">❄️ Weather App ❄️</h1>
+    <center>
+    <div class="container">
+        <div class="div-top">
+               <input type="text" class="search-bar" placeholder="Search City ........" id="search">
+               <button class="button" onclick="searchWeather()">Search</button>
+        </div>
+        <div class="weather-location">
+            <h2 id="location"></h2>
+            <h3 id="date"></h3>
+        </div>
+        <div class="div-left">
+            
+            <img class="weather-icon hidden" id="weather-icon" alt="Weather Icon">
+            <p class="temp" id="temperature-output"></p>
+            <p class="Descrp" id="description-output"></p>
+           
+             
+              
+        </div>
+        <div class="div-right">
+            <p class="humidity" id="humidity-output"></p>
+            <p class="wind" id="wind-output"></p>
+            <p class="pressure" id="pressure-output"></p>
+        </div>
+        <div class="div-bottom" id="forecast-container">
+        
+            <div class="weeks">
+        
+            </div>
+            <div class="weeks">
+        
+            </div>
+            <div class="weeks">
+        
+            </div>
+            <div class="weeks">
+        
+            </div>
+            <div class="weeks">
+        
+            </div>
+           
+        </div>
+    </div>
+</center>
+<script src="D:\Web Development\My Weather App\weather.js"></script>
+</body>
+</html>
